@@ -48,6 +48,7 @@ ledger.withdraw(15.89, 'restaurant and more food')
 ledger.transfer(50.00, Clothing)
 ledger.transfer(50.00, Food)
 
+#Print the budget function
 def printing():
     balance = list()
     get_balance = ledger.data
